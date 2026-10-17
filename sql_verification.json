@@ -1,0 +1,54 @@
+{
+  "engine": "DuckDB synthetic fixtures after sqlglot T-SQL transpilation",
+  "native_sql_server_executed": false,
+  "checks": {
+    "1": {
+      "parsed_tsql": true,
+      "transpiled_execution": "passed",
+      "result_rows": 1
+    },
+    "2": {
+      "parsed_tsql": true,
+      "transpiled_execution": "passed",
+      "result_rows": 1
+    },
+    "3": {
+      "parsed_tsql": true,
+      "transpiled_execution": "passed",
+      "result_rows": 3
+    },
+    "4": {
+      "parsed_tsql": true,
+      "transpiled_execution": "passed",
+      "result_rows": 7
+    },
+    "5": {
+      "parsed_tsql": true,
+      "transpiled_execution": "passed",
+      "result_rows": 1
+    },
+    "6": {
+      "parsed_tsql": true,
+      "transpiled_execution": "passed",
+      "result_rows": 2
+    },
+    "7": {
+      "parsed_tsql": true,
+      "transpiled_execution": "passed",
+      "result_rows": 13
+    }
+  },
+  "edge_cases": [
+    "case insensitive Cyrillic",
+    "inclusive shelf life 7",
+    "open/close date boundary",
+    "zero-sales warehouse in denominator",
+    "month end timestamp",
+    "company distinct users across cities",
+    "weighted city check",
+    "14-day cutoff",
+    "all loss articles",
+    "group with zero sales",
+    "independent top-10 union and common Moscow denominator"
+  ]
+}

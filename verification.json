@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": [
+    "All 504 joined rows, 9 source columns and ISO week values reconciled to original input",
+    "All nine workbook reconciliations passed",
+    "Six weekly totals and weighted ratios matched independent Python aggregates",
+    "Both top-3 tables matched independent rankings",
+    "All 18 territory rows matched independent results",
+    "All 104 cached monthly chart values preserved",
+    "Formula cells retained and saved calculated values contain no Excel errors",
+    "Two native charts retain references to formula cells",
+    "Native pivot, 504 cache records, row/data fields, source range and grand total verified",
+    "Worksheet row IDs are unique and ordered after OOXML pivot supplementation",
+    "Seven T-SQL blocks parsed and transpiled synthetic queries passed",
+    "Source warehouse change propagated to joined data and restored",
+    "Large source revenue edit changed top territory and restored original ranking"
+  ],
+  "formula_count": 9016,
+  "native_sql_server_executed": false,
+  "desktop_excel_refresh_tested": false,
+  "numeric_tolerance": 1e-05,
+  "sql_verification": "sql_verification.json"
+}
